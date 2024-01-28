@@ -20,7 +20,7 @@ const Form = () => {
     <div>
       <div className=''>
         
-        <input type='input' onChange={touch} className='py-2 px-2 rounded-lg mt-8 bg-lime-500 text-white focus:outline-none' /> 
+        <input type='input' onChange={touch} className='py-2 px-2 rounded-lg mt-8 bg-blue-400 text-white focus:outline-none' /> 
         <button className='px-3 py-2 bg-gray-300 ml-4 rounded-md' onClick={addList}>Add task</button>
         <br />
          {todoList.map(task =>{
